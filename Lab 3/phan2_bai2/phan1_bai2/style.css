@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    border: 1px solid black;
+    min-width: 600px;
+}
+
+.title {
+    padding: 20px 20px;
+}
+
+.title p {
+    margin: 0;
+    font-size: xx-large;
+}
+
+.link {
+    display: flex;
+    margin-left: 5%;
+}
+
+.link a {
+    align-self: center;
+    padding: 0px 10px;
+}
+
+.link span {
+    align-self: center;
+}
+
+.search {
+    align-self: center;
+    margin-left: calc(85% - 780px);
+}
+
+.content {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.leftSide {
+    border: 1px solid black;
+}
+
+.list-item {
+    border: 1px solid black;
+    width: 250px;
+}
+
+.list-item p {
+    border: 2px solid black;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    height: 35px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: -8px;
+}
+
+ul li {
+    font-size: 23px;
+}
+
+.middle {
+    border: 1px solid black;
+}
+
+.sub-link {
+    padding-left: 20px;
+    margin: 15px 0px;
+    color: gray;
+}
+
+.summary-info {
+    display: flex;
+}
+
+.image {
+    display: block;
+}
+
+.main img {
+    height: 400px;
+    width: 400px;
+    border: 10px solid red;
+}
+
+.sub img {
+    height: 80px;
+    width: 80px;
+    margin: 10px 8px;
+}
+
+.infomation {
+    margin-left: 20px;
+}
+
+.player {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.role {
+    margin-top: -5px;
+}
+
+.summary {
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.buy button {
+    margin-top: 60px;
+    margin-left: 50px;
+    padding: 10px 30px;
+    font-size: 30px;
+    border-radius: 10%;
+}
+
+.description {
+    margin: 20px 20px;
+    text-align: justify;
+}
+
+.description span {
+    font-weight: bold;
+    font-size: large;
+}
+
+.rightSide {
+    border: 1px solid black;
+    width: 160px;
+}
+
+.ads {
+    width: 160px;
+    height: 600px;
+}
+
+.ads img {
+    width: 160px;
+    height: 600px;
+}
+
+.footer {
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 650px) {
+    .link {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .leftSide {
+        display: none;
+    }
+
+    .main img {
+        display: block;
+    }
+    
+    .sub {
+        display: none;
+    }
+
+    .image img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .search {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .summary-info {
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .rightSide {
+        display: none;
+    }
+}

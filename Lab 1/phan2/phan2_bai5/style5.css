@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#body {
+    margin: 0 auto;
+    background-image: url(./images/bg-body.png);
+    width: 1600px;
+}
+
+#main {
+    margin: 0 auto;
+    width: 700px;
+    font-size: 12px;
+    background-color: white;
+}
+
+#header {
+    background-image: url(./images/bg-header.jpg);
+    background-repeat: no-repeat;
+    height: 140px;
+}
+
+#header p {
+    font-size: 35px;
+    font-style: italic;
+    color: rgb(167, 164, 164);
+    padding-left: 25px;
+    padding-top: 45px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#flex-1 {
+    background-image: url(./images/bg-menu.png);
+    background-repeat: no-repeat;
+    display: flex;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10px;
+}
+
+#flex-1 a {
+    color: white;
+    padding: 0 15px;
+}
+
+#flex-2 {
+    display: flex;
+}
+
+#left {
+    width: 500px;
+}
+
+#text {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+img {
+    background-repeat: no-repeat;
+}
+
+#text h2 {
+    font-size: 23px;
+    color: #B4C835;
+    font-weight: normal;
+    font-family: "Times New Roman";
+}
+
+#t1 {
+    color: #BBB;
+    font-size: 11px;
+    font-family: "Times New Roman";
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.t2 {
+    text-align: justify;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#cmt a {
+    color: #70cade;
+    background: url(./images/icon-comment.png) no-repeat 0px 1px;
+    padding-left: 20px;
+    padding-right: 2px;
+}
+
+#right {
+    width: 180px;
+}
+
+#a1 {
+    background-color: rgb(243, 242, 242);
+}
+
+#feed {
+    background-image: url(./images/bg-feed.gif);
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 152px;
+    padding-left: 25px;
+    margin: 0 auto;
+}
+
+#feed a {
+    background-image: url(./images/button-feed.png);
+    height: 25px;
+    width: 100px;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+ul a {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    color: #222222;
+    padding-left: 5px;
+    border-bottom: 1px solid #dddddd;
+    background-color: rgb(243, 242, 242);
+}
+
+#botlink{
+    height: 20px;
+    background: url(./images/bg-sidebar-bottom.gif) no-repeat top center;
+}
+
+#flex-2 {
+    min-height: 425px;
+}
+
+#footer{
+    height: 100px;
+    background-image: url("images/bg-footer.jpg");
+    bottom: 0px;
+}
+
+#footer p {
+    font-size: medium;
+    color: white;
+    padding-left: 10px;
+    padding-top: 60px;
+}

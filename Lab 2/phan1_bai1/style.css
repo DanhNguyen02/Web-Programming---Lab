@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+nav {
+    border: 1px solid black;
+}
+
+#navbarText div {
+    margin-left: 3vw;
+}
+
+nav form {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 40%;
+}
+
+.navlink {
+    width: 500px;
+}
+
+.content {
+    display: flex;
+}
+
+footer {
+    text-align: center;
+}
+
+.left {
+    width: 160px;
+    border: 1px solid black;
+}
+
+.left div {
+    border: 1px solid black;
+}
+
+.left p {
+    border: 1px solid black;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.middle {
+    width: calc(100% - 320px);
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.text {
+    padding: 5px;
+    padding-left: 20px;
+    font-size: 120%;
+}
+
+.card {
+    text-align: center;
+}
+
+.card button {
+    padding: 5px 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.list {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.list a {
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    width: 40px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.list a:hover {
+    background-color: lightgray;
+}
+
+.list #left {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.list #right {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.right {
+    border: 1px solid black;
+}
+
+.right .box {
+    width: 160px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+.right .box p {
+    margin: 0;
+    height: 600px;
+}
+
+.right p {
+    text-align: center;
+    padding-top: 290px;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid black;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer #link2 {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 1vw;
+}
+
+li {
+    
+}

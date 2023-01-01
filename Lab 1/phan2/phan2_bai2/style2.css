@@ -1,0 +1,52 @@
+img {
+    border: 8px solid red;
+    border-radius: 15px;
+}
+
+p {
+    font-family: Arial;
+}
+
+h1 {
+    color: #c63b2d;
+}
+
+#about {
+    text-shadow: 3px 3px blue;
+}
+
+#i1 {
+    font-weight: bold;
+    font-size: 300%;
+}
+
+.i2 {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 150%;
+}
+
+#i3 {
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 150%;
+}
+
+.red {
+    color: red;
+}
+
+table, th, td {
+    border: 1px solid grey;
+    border-spacing: 1px;
+    padding: 5px 10px 5px 10px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#twitter {
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+    color: #36674e;
+    text-decoration-line: none;
+}

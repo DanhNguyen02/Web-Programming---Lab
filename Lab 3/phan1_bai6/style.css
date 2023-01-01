@@ -1,0 +1,15 @@
+.content {
+    padding: 50px;
+}
+
+#gender {
+    padding-left: 20px;
+}
+
+.birthday .text {
+    padding-right: 20px;
+}
+
+.birthday select {
+    margin-right: 10px;
+}

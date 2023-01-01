@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="EN">
+    <head>
+        <title>Phần 2 bài 2</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="container content" id="content1">
+                <form>
+                    <label for="first">Điền số thứ nhất:</label><br>
+                    <input type="text" name="first" id="first"><br><br>
+                    <label for="second">Điền số thứ hai:</label><br>
+                    <input type="text" name="second" id="second"><br><br>
+                    <div>Kết quả: </div>
+                    <div id="result"></div>
+                </form>
+                <button type="button" class="btn btn-primary" id="bt1" onclick="add()">Add a+b</button>
+                <button type="button" class="btn btn-primary" id="bt2" onclick="sub()">Sub a-b</button>
+                <button type="button" class="btn btn-primary" id="bt3" onclick="mul()">Mul a*b</button>
+                <button type="button" class="btn btn-primary" id="bt4" onclick="div()">Div a/b</button>
+                <button type="button" class="btn btn-primary" id="bt5" onclick="pow()">Power a^b</button>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+#a {
+    width: 750px;
+}
+
+#a1 {
+    background-color: #adaaaa;
+    height: 50px;
+    padding-left: 10px;
+    line-height: 50px;
+}
+
+#a2 {
+    background-color: #b67171;
+    padding: 5px;
+    padding-left: 5px;
+}
+
+#a2 a {
+    padding: 5px;
+}
+
+.a4 {
+    float: left;
+    min-height: 410px;
+}
+
+.clear {
+    clear: both;
+}
+
+.left {
+    background-color: rgb(141, 211, 141);
+    width: 500px;
+    padding: 0px 10px 0px 10px;
+}
+
+.right {
+    background-color: rgb(157, 155, 216);
+    width: 210px;
+    padding: 0px 10px 0px 10px;
+}
+
+#a4 {
+    background-color: rgb(214, 222, 107);
+    padding-left: 10px;
+}
+
+#a4 p {
+    margin: 0px;
+}
